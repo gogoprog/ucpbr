@@ -1,12 +1,12 @@
 local TextureDrawer
 local RenderIsEnabled = false
 
-if love.graphics.isSupported("pixeleffect") then
-    TextureDrawer=require'perspective'
-    RenderIsEnabled = true
-else
+-- if love.graphics.isSupported("pixeleffect") then
+    -- TextureDrawer=require'perspective'
+    -- RenderIsEnabled = true
+-- else
     RenderIsEnabled = false
-end
+-- end
 
 level = {}
 
@@ -122,7 +122,7 @@ function level.generateStaticBlocks()
     CurrentLevel.BonusBlocks = {}
 
     CurrentLevel.BlockSet.SpriteBatch:clear()
-    CurrentLevel.BlockSet.SpriteBatch:bind()
+    -- CurrentLevel.BlockSet.SpriteBatch:bind()
 
     for i=0,ZoneCount do
         local zone
@@ -139,7 +139,7 @@ function level.generateStaticBlocks()
                 block.PhysicObject = physic.addRectangle(v.X+x_offset,v.Y,32,32)
             end
 
-            CurrentLevel.BlockSet.SpriteBatch:addq(
+            CurrentLevel.BlockSet.SpriteBatch:add(
                 CurrentLevel.BlockSet.Quads[v.Type],
                 v.X+x_offset,
                 v.Y
@@ -166,18 +166,18 @@ function level.generateStaticBlocks()
     print("Blocks : " .. #CurrentLevel.Blocks)
     print("Bonus : " .. #CurrentLevel.BonusBlocks)
 
-    CurrentLevel.BlockSet.SpriteBatch:unbind()
+    -- CurrentLevel.BlockSet.SpriteBatch:unbind()
 end
 
 function level.updateBonusBlocks(dt)
     local x_offset
 
     CurrentLevel.BlockSet.BonusSpriteBatch:clear()
-    CurrentLevel.BlockSet.BonusSpriteBatch:bind()
+    -- CurrentLevel.BlockSet.BonusSpriteBatch:bind()
 
     for k,v in ipairs(CurrentLevel.BonusBlocks) do
         if v.Enabled then
-            CurrentLevel.BlockSet.BonusSpriteBatch:addq(
+            CurrentLevel.BlockSet.BonusSpriteBatch:add(
                 CurrentLevel.BlockSet.Quads[v.Type],
                 v.X,
                 v.Y
@@ -190,7 +190,7 @@ function level.updateBonusBlocks(dt)
         end
     end
 
-    CurrentLevel.BlockSet.BonusSpriteBatch:unbind()
+    -- CurrentLevel.BlockSet.BonusSpriteBatch:unbind()
 end
 
 function level.update(dt)

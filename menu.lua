@@ -11,7 +11,7 @@ function menu.load()
 end
 
 function menu.update(dt)
-    local current_state = love.keyboard.isDown("left")
+    local current_state = love.keyboard.isDown("return")
     
     if menu.PreviousState == false and game.Started == false then
         if current_state then
