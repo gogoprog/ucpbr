@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="96" height="12" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="tiles.png" width="128" height="128"/>
+  <tile id="5">
+   <properties>
+    <property name="type" value="bonus"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="sloflo00" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEKACAIBFAX+/9PbmloKIs40eoeuERDXIoiNm1FNpVxVoj8svxBAd3x1GeFzC1D/rfw6NfZfJ2K7tORjG8iWu223fNXecwtKvPf/uIn3BcUgX1HKMoKrQqrzALT
+  </data>
+ </layer>
+ <layer name="sloflo01" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlzEOACAIA130/0921EGHAqZEeklnwykQW1v0LSw6kF+51ffCTSWvKBYfFv/ZGcSzPXdQeYZEInc48nPGM0uQvpZ/8RrmXmQTUXsGf5olHKx/FeEj25tGd7oSmwnT0gOt
+  </data>
+ </layer>
+ <layer name="sloflo02" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKACAMQ9Euev8juxcXMdqI/0FXiVraCACo11K5UeVT3zHncnw71OsG56kz4A/0zbtW9tPuPyv3IPMNOGs2G6h7NQChOQKI
+  </data>
+ </layer>
+ <layer name="sloflo03" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1DsKACAMRME08f5HtrUKKOTrG9g2ZhEVAYB69EjmjCwd+i+nuR5neOwa0R/4Sac3pUame+lb+W5vd5vWH4hm/Z/EPxvLnQKY
+  </data>
+ </layer>
+ <layer name="gold_rush00" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1EEKACAIBEAP0f+f3Cey2JqBPSsqVgE/muE10vtP0T2D9Bs5WYdeXXt84Ve5cQB2GXI1C1BsAck=
+  </data>
+ </layer>
+ <layer name="gold_rush01" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1CEKACAQBECD+P8nmyyCCmc4hRnYtGXTlgKQr2UPmOz2RLsMr+0BiFr92U+fPJx23fYAr6qSmg6o7QHD
+  </data>
+ </layer>
+ <layer name="pointy_roof00" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztl0sOACEIQ4kL73/k2c5iJMOnoqQv6ZKCjZI4RGRQZXrjqbHUaR5eH+SM2qyI86+8rETqkTl5+lX4ZZ4pA1T2f3pEfCKznAoq/y/vTkyAJzKnbvl3B3G/boMZENKPHe961+6o2FFaz8w/J2XXAwPxAtM=
+  </data>
+ </layer>
+ <layer name="blood_ramp00" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlkEKACAIBIOg/z+5D2RmmlrtgJcwgnGLSuGpyesXrHzApw6tq0zem/O+bET7B3a8kknAE/V+embMO8/4g53j9//v6Sx7OqX6bpnFDpY+Z44l/lfWpTOJumtWmVxZl/gfnT/r4Xqp81Ax1QEVPQOa
+  </data>
+ </layer>
+ <layer name="eco_tunnel00" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztlsEKACAIQz3l//9x14iIoKlpezDolNuIUEVEqTDJdN6Bnns6y9MXyvPYLRor/xGeovwiyJKhUucrrHI00D3kH/hmCMlHtd3EAsTf9sKeeJMj415r0blHNk/fVIw6ia4LSA==
+  </data>
+ </layer>
+ <layer name="eco_tunnel01" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztljkKACAQA1Pp/39sL+ItI5qBgI3oTrEkSooOFmXnGvRf6Yz6kfrujUJ7uMU3De3nR+cliNlfd7qbE35udB7At40xZpbWPn1lt63McaJn/NLTStB912GTAKGDDV0=
+  </data>
+ </layer>
+ <layer name="city_ruins00" width="96" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztl8EOwCAIQ4mH/f8n77hkka1SULf0JVyIYNGo2MysDdgTvTF3H5qD0YHmiswb1TIKUzPiYzQxsW85IntVSUb+ao0ozPnx/LvUtpoDHJd9FrX+Qghxgd7FVfEZMBp20P9XVr63zL5G+4VenNf/VfbsX+53Kv6uGTZz/pV1ynw7AWVyAiU=
+  </data>
+ </layer>
+ <layer name="city_ruins01" width="96" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztlsEKwCAMQ4uHwbb//9+dBqW0zmpqN2YgJ1HjaxULEZXlNLcqar/RXGhZeQ7m2pg0ij/P15LdK5k7SxY7Pu5h+FQDtLL6dwtY0+oHqzaWTprH/y/SamP1wOI/X7wWmfwj3oWvCcV/FsuefdD/jJGzyrnr/cHo5qipVq9I/qg/7dv6Y1fck4nPq53Pc3b0Xc+Sxliy1lyb51knyp58mc5gI30BFjoGRA==
+  </data>
+ </layer>
+</map>
